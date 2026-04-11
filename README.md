@@ -121,7 +121,7 @@ This system enables:
 ---
 
 ## 📄 Full Report
-👉 Detailed analysis available in: `results/final_report.pdf`
+👉 Detailed analysis available in: `ship_engine_anomaly_detection.pdf`
 
 ---
 
