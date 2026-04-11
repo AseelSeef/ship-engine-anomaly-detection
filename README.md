@@ -120,8 +120,7 @@ This system enables:
 
 ---
 
-## 📄 Full Report
-👉 Detailed analysis available in: (./ship_engine_anomaly_detection.pdf)
+📄 [View Full Report](./ship_engine_anomaly_detection.pdf)
 
 ---
 
