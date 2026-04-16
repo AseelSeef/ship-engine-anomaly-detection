@@ -1,16 +1,11 @@
 # 🚢 Ship Engine Anomaly Detection
-
-![Python](https://img.shields.io/badge/Python-3.9+-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Anomaly%20Detection-orange)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-Educational-lightgrey)
-
 ---
 
 ## 📌 Overview
-This project develops a machine learning system to detect **anomalous ship engine behavior** using telemetry data.
+This project focuses on detecting anomalous ship engine behavior using statistical and machine learning techniques.
 
-The system identifies abnormal engine conditions that may lead to:
+Anomalies represent unusual combinations of engine feature values that may indicate potential failures or inefficiencies.
+
 - ⛽ Increased fuel consumption
 - ⚙️ Reduced engine efficiency
 - 🚢 Delivery delays
@@ -108,15 +103,6 @@ This system enables:
 - Improved fuel efficiency
 - Prevention of unexpected breakdowns
 - Enhanced operational safety
-
----
-
-## 🛠️ Tech Stack
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib / Seaborn
-- PCA, One-Class SVM, Isolation Forest
 
 ---
 
