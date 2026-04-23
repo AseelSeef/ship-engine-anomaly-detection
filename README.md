@@ -37,7 +37,7 @@ Anomalies represent rare or abnormal patterns that may indicate early signs of e
 
 ### 2. Data Preprocessing
 - Feature scaling for uniform contribution
-- Principal Component Analysis (PCA) for visualization
+- Principal Component Analysis (PCA) applied on the same scaled dataset for consistent visualization across models
 
 ### 3. Anomaly Detection Models
 Two machine learning approaches were used:
@@ -71,14 +71,14 @@ Threshold tuning showed that **threshold = 2** best captures meaningful anomalie
 ### 🔹 Isolation Forest
 - Contamination = 0.01
 - Anomaly rate ≈ 1.00%
-- Strong performance in isolating extreme outliers
+- Effective in identifying isolated extreme observations
 
 ---
 
 ### 🔹 Model Comparison
-- SVM: tighter decision boundary
-- Isolation Forest: better detection of isolated extreme anomalies
-- Both methods show strong agreement on core anomaly regions
+- SVM: Learns tighter decision boundaries around normal behavior
+- Isolation Forest: More sensitive to isolated extreme values
+- Both models detect similar proportions of anomalies, with partial overlap in flagged observations
 
 ---
 
@@ -91,8 +91,9 @@ This confirms that engine failures are driven by **multi-variable interactions**
 
 ## 📉 Visualization
 - PCA used for 2D projection of high-dimensional data
-- Clear separation between normal and anomalous points
-- Boxplots and histograms confirm feature-level outliers
+- Significant overlap between normal and anomalous points
+- No clear clustering or separation observed
+- Only a small number of extreme outliers are visually distinguishable
 
 ---
 
@@ -111,4 +112,4 @@ This system enables:
 ---
 
 ## ⭐ Summary
-This project demonstrates how combining statistical analysis with machine learning can effectively detect anomalies in ship engine systems and support predictive maintenance strategies.
+This project demonstrates how combining statistical analysis with machine learning can effectively detect anomalies in ship engine systems. While PCA visualization shows limited separability of anomalies, the applied models successfully identify unusual patterns in high-dimensional space, supporting predictive maintenance strategies.
